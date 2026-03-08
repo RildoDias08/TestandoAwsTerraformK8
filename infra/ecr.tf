@@ -1,5 +1,5 @@
-resource "aws_ecr_repository" "meuapp" {
-	name="meuapp-repo"
+resource "aws_ecr_repository" "repo" {
+	name=local.repo_name
 
 	image_scanning_configuration {
 	  scan_on_push = true
