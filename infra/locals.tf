@@ -7,5 +7,4 @@ locals {
   repo_name = "${local.project_prefix}-repo"
   cluster_name = "${local.project_prefix}-cluster"
   rds_name = "${local.project_prefix}-rds"
-
 }

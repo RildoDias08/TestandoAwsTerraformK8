@@ -17,4 +17,6 @@ variable "vpc_cidr" {
   type = string
 }
 
-
+variable "myip" {
+  type = string
+}
