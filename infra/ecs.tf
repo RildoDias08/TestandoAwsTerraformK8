@@ -1,3 +1,3 @@
-resource "aws_ecs_cluster" "main" {
+resource "aws_ecs_cluster" "meuapp" {
     name = local.cluster_name
 }

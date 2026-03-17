@@ -20,3 +20,11 @@ variable "vpc_cidr" {
 variable "myip" {
   type = string
 }
+
+variable "ami" {
+  type = string
+}
+
+variable "instance_type" {
+  type = string
+}
